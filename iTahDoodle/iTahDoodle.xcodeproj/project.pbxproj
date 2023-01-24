@@ -60,14 +60,38 @@
 			children = (
 				12BBE0E9297EE13F0024C453 /* AppDelegate.swift */,
 				12BBE0EB297EE13F0024C453 /* SceneDelegate.swift */,
-				12BBE0ED297EE13F0024C453 /* ViewController.swift */,
-				12BBE0EF297EE13F0024C453 /* Main.storyboard */,
-				12BBE0FD297F0E6D0024C453 /* TodoList.swift */,
+				12BBE0FF29802BFA0024C453 /* Model */,
+				12BBE10229802C5E0024C453 /* View */,
+				12BBE10129802C1B0024C453 /* Controller */,
 				12BBE0F2297EE1400024C453 /* Assets.xcassets */,
 				12BBE0F4297EE1400024C453 /* LaunchScreen.storyboard */,
 				12BBE0F7297EE1400024C453 /* Info.plist */,
 			);
 			path = iTahDoodle;
+			sourceTree = "<group>";
+		};
+		12BBE0FF29802BFA0024C453 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				12BBE0FD297F0E6D0024C453 /* TodoList.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		12BBE10129802C1B0024C453 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				12BBE0ED297EE13F0024C453 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		12BBE10229802C5E0024C453 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				12BBE0EF297EE13F0024C453 /* Main.storyboard */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
